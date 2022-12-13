@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+/**
+ * @file 入口文件
+ * @author zhongziyan@baidu.com
+ */
+
+import Demo1 from './demos/Demo1.js';
+import Demo2 from './demos/Demo2.js';
+import Demo3 from './demos/Demo3.js';
+import Demo4 from './demos/Demo4.js';
+import Demo5 from './demos/Demo5.js';
+import Demo6 from './demos/Demo6.js';
+import Demo7 from './demos/Demo7.js';
+import Demo8 from './demos/Demo8.js';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app" id="canvas-container">
+        {/* <Demo1 /> */}
+        {/* <Demo2 /> */}
+        {/* <Demo3 /> */}
+        {/* <Demo4 /> */}
+        {/* <Demo5 /> */}
+        {/* <Demo6 /> */}
+        {/* <Demo7 /> */}
+        <Demo8 />
     </div>
   );
 }
